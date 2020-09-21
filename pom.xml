@@ -48,7 +48,7 @@
         <dependency>
             <groupId>org.languagetool</groupId>
             <artifactId>language-en</artifactId>
-            <version>4.8</version>
+            <version>5.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.scala-lang</groupId>
@@ -74,7 +74,7 @@
         <dependency>
             <groupId>org.languagetool</groupId>
             <artifactId>language-de</artifactId>
-            <version>4.8</version>
+            <version>5.0</version>
         </dependency>
     </dependencies>
 
