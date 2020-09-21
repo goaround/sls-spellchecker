@@ -71,6 +71,11 @@
             <version>5.4.0</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.languagetool</groupId>
+            <artifactId>language-de</artifactId>
+            <version>4.8</version>
+        </dependency>
     </dependencies>
 
     <build>
