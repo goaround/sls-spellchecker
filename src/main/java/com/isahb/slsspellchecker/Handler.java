@@ -34,7 +34,7 @@ public class Handler implements RequestHandler<Map<String, Object>, ApiGatewayRe
     private static final int CHARACTER_LIMIT = 1024;
     public static final Map<String, String> HEADERS = Collections.singletonMap("X-Powered-By", "Languagetool");
 
-    private JLanguageTool langTool = new JLanguageTool(new AmericanEnglish());
+    private JLanguageTool langTool = new JLanguageTool(new GermanyGerman());
     private ObjectMapper objectMapper = initializeObjectMapper();
 
     private ObjectMapper initializeObjectMapper() {
